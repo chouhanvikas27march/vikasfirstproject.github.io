@@ -1,0 +1,243 @@
+.navbar-expand-lg{
+    margin-bottom:0px;
+    position:absolute;
+    z-index:1;
+    width:100%;
+}
+
+ .slider{
+}
+ .slider h1{
+    font-size:60px;
+    margin-bottom:10%;
+}
+ .slider h3{
+    font-size:40px;
+}
+ .slider button{
+    margin-bottom:10%;
+}
+ .hvr-shutter-out-horizontal{
+    background:#f1ea26;
+}
+ .service{
+    padding:60px 0px;
+}
+ .service .aa h1, h3{
+    text-align:center;
+}
+ .service .aa p{
+    text-align:center;
+}
+ .navbar-light .navbar-nav .nav-link{
+     color:#fff;
+}
+ .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+     color:#fff;
+}
+ .service img {
+     width: 25%;
+     margin-left: 35%;
+     background: #fff600;
+     border-radius: 100%;
+     padding: -3px;
+     padding: 15px;
+}
+ .PORTFOLIO{
+    background:#e7e7e7;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+ .PORTFOLIO h1, p, h3{
+    text-align:center;
+}
+ .PORTFOLIO p{
+    color:#b1a490;
+}
+ .PORTFOLIO img{
+    border:solid 0px #fff;
+}
+ .aa{
+     border-bottom:1px solid #ddd;
+     border-right:1px solid #ddd;
+}
+ .aa:last-child{
+     border-right:none;
+}
+ .ABOUT{
+    background:#fff;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+ .ABOUT p, h1{
+    text-align:center;
+}
+ .ABOUT .tex h1{
+    padding-top:40px;
+    text-align:right;
+}
+ .ABOUT .tex p{
+    text-align:justify;
+}
+ .ABOUT img{
+    margin:50px 0px;
+    border-radius:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border:solid 5px #e7e7e7;
+}
+ .ABOUT .line h1, h2{
+    text-align:left;
+}
+ .ABOUT p{
+    color:#aa9e8b;
+}
+ .ABOUT {
+    position:relative;
+    z-index:8
+}
+ .timeline{
+    position:relative;
+    z-index:1;
+}
+ .inner-border:before{
+    margin-left:50%;
+     position: absolute;
+     top: 213px;
+     bottom: 0;
+     left: 23px;
+     width: 2px;
+     height:78%;
+     content: '';
+     background-color: #f8f9fa;
+     z-index:-1;
+}
+ .team{
+    padding:50px 0px;
+    background:#f6f2f2;
+}
+ .team img {
+    width:50%;
+    border-radius:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border:solid 5px #e7e7e7;
+}
+ .team i{
+    width:30px;
+    line-height:30px;
+    text-align:center;
+    background:#fff;
+    border-radius:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border:solid 1px #e7e7e7;
+}
+ .team h6{
+    padding-top:35px;
+    text-align:center;
+}
+ .text-muted{
+    #6c757d!important
+}
+ .text-center{
+    text-align:center!important
+}
+ .patners{
+    padding:50px 0px;
+}
+ .contact{
+    background:url(../images/map.jpg);
+    background-size:100% auto;
+     min-height:560px;
+}
+ .contact {
+    padding:50px ;
+}
+ .contact h1{
+    color:#fff;
+}
+ .contact p{
+    color:#fff;
+}
+ .form-control{
+    font-size:16px;
+    padding:2.375rem 0.75rem;
+}
+ #formGroupExampleInput{
+    margin-top:30px;
+}
+ .form-controll{
+    margin-top:30px;
+    padding-bottom:44%;
+    width:114%!important;
+    height:102%!important;
+    font-size:17px;
+}
+ .btn-lgl{
+    margin-left:42%;
+    margin-top:30px;
+    padding:14px 28px;
+    background:#fed136;
+    border-radius:10px;
+}
+ .footer p{
+    padding-top:20px;
+}
+ .footer i{
+    width:40px;
+    line-height:40px;
+    text-align:center;
+    background:#000;
+    border-radius:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border:solid 1px #e7e7e7;
+    margin:8px;
+}
+ .alert{
+    padding-top:20px;
+}
+
+
+/* responsive*/
+
+
+
+@media (max-width: 1024px)
+{.form-controll{padding-bottom:64%;height:92%!important;}
+.ABOUT .tex h1{font-size:33px;text-align:left;}
+.ABOUT .tex h2{font-size:19px;}	
+.slider h1{font-size:54px;margin-bottom:7%;}	
+.slider h3{font-size:35px;}	
+.slider img{width:19%;}
+
+}
+
+@media (max-width: 768px)
+{.slider h3{
+    font-size:30px;
+}
+.slider h1{font-size:40px;
+margin-bottom:8%;}
+	
+.slider img{margin-bottom:68px;width:20%;}	
+.service h3{font-size:23px;}
+.btn-lg, .btn-group-lg > .btn	{padding:5px;}
+	
+.form-controll{padding-bottom:89%;height:92%!important;}	
+.contact{background-repeat:no-repeat;background-size:cover;}
+.btn-lgl{margin-left:35%;}	
+ .footer i{margin-top:15px;}
+.inner-border:before{list-style:none;border:none;}
+
+@media (max-width: 576px)
+{.PORTFOLIO img{border:solid 0px;list-style:none;max-width:101%;}
+#colFormLabelLg{width:100%!important;}
+.btn-lgl{margin-left:22%;}
+.inner-border:before{list-style:none;border:none;}
+.slider img{margin-bottom:0px;width:35%;padding-bottom:15px;}
+
+
+
+ 

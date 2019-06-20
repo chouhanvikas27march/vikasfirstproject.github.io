@@ -1,0 +1,53 @@
+body,h1,h2,h3,h4,div,ul,li{margin:0px; padding:0px; font-family:'Segoe Script'}
+img{max-width:100%;}
+.navv{position:absolute; z-index:1; width:100%;}
+.navbar .navbar-expand-lg{background-color:black;}
+.navv a{background-color:black; color:white;border:1px solid white;}
+.navv ul li span a{color:#f42f70;}
+
+.slider button{background-color:white; color:black; border:none; width:130px; height:50px;}
+.slider button:hover{background-color:black; color:white;border:none;}
+
+
+.cardd{padding-top:2%; padding-bottom:2%;}
+.cardd.card{padding:2%; border:1px solid pink;}
+.card-group{margin:2%;}
+
+
+.media button{background-color:black; color:white; border:none;}
+.media button:hover{color:black; border:1px solid black; background:none;}
+
+.mdd{border:1px solid #bcbcbc; padding-top:2%; padding-bottom:2%;background-color:#11a89f; color:white;}
+
+
+.project{padding:2%;}
+.project.card-group{border:none;}
+
+.text h2{font-size:70px;}
+.text{padding:2%;}
+
+.ftr{background-color:#273a43; padding-top:2%; padding-bottom:2%;}
+.ftr .card-title{color:white;}
+.ftr ul{color:white;}
+.ftr ul li a{color:#71b6d5; padding-right:4px;}
+.ftr ul li a:hover{color:#000;}
+.ftr p{color:#b0b3b4;}
+.card{background:none; border:none;}
+
+
+
+.bdr{border:1px solid black; padding:5%;}
+.content button{width:220px; height:50px; margin-bottom:6px;}
+
+
+
+.info{padding:2%;}
+.info h2{text-align:center;}
+.info .card img{width:70px; height:70px; text-align:center}
+.iframe{padding:2%;}
+.info .card{border-right:2px solid #bcbcbc;border-bottom:2px solid black; text-align:center;}
+.info .card img{margin-left:100px;}
+
+textarea.form-control{height:200px; margin-top:2%;}
+
+.mapp h2{text-align:center; padding:3%;}
